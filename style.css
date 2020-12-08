@@ -1,0 +1,56 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("/Billeder/Forrest.png");
+}
+
+/*Header start*/
+header {
+  background-color: #405464;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  color: #f4f4f4;
+}
+
+ul {
+  display: flex;
+}
+
+.name {
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.menu {
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+li {
+  margin: 1em 2em;
+}
+
+a {
+  color: #f4f4f4;
+}
+/*Header slut*/
+
+/*Introduktion start*/
+.intro {
+  display: grid;
+}
+
+/*Introduktion slut*/
+
+.Bes {
+  height: 150px;
+}
