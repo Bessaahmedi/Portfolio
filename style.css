@@ -26,13 +26,13 @@ ul {
 }
 
 .name {
-  margin-left: 10%;
+  margin-left: 5%;
   margin-right: auto;
 }
 
 .menu {
   margin-left: auto;
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 li {
@@ -46,11 +46,34 @@ a {
 
 /*Introduktion start*/
 .intro {
-  display: grid;
+  display: flex;
+  margin: 6em 9em;
+  background-color: rgba(64, 84, 100, 0.7);
+  height: 400px;
 }
 
-/*Introduktion slut*/
+.welcome {
+  margin: auto auto auto 10%;
+  color: #e1a6a0;
+  line-height: 1.5em;
+  font-size: 35px;
+  text-align: center;
+}
+
+.welcome p {
+  font-size: 25px;
+}
+
+.photo {
+  margin: auto 10% auto auto;
+}
 
 .Bes {
-  height: 150px;
+  margin: 3em;
+  height: 200px;
 }
+/*Introduktion slut*/
+
+/*Cases start*/
+
+/*Cases slut*/
