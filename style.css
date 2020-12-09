@@ -12,13 +12,12 @@ body {
 
 /*Header start*/
 header {
-  background-color: #405464;
-  padding: 10px;
+  background-color: rgba(64, 84, 100, 0.9);
+  padding: 2em 0em;
 }
 
 nav {
   display: flex;
-  color: #f4f4f4;
 }
 
 ul {
@@ -35,11 +34,8 @@ ul {
   margin-right: 5%;
 }
 
-li {
-  margin: 1em 2em;
-}
-
-a {
+li a {
+  margin: 0em 2em;
   color: #f4f4f4;
 }
 /*Header slut*/
@@ -75,5 +71,80 @@ a {
 /*Introduktion slut*/
 
 /*Cases start*/
+.cases h1 {
+  font-size: 35px;
+  color: #e1a6a0;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 2px solid;
+  width: 200px;
+  margin: 2em auto;
+}
+
+.all-rows {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.first-row {
+  display: flex;
+}
+.second-row {
+  display: flex;
+}
+
+.projectone,
+.projecttwo,
+.projectthree,
+.projectfour,
+.projectfive,
+.projectsix {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: rgba(110, 144, 135, 0.7);
+  height: 200px;
+  width: 200px;
+  margin: 1em;
+}
+
+.projectone p,
+.projecttwo p,
+.projectthree p,
+.projectfour p,
+.projectfive p,
+.projectsix p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /*Cases slut*/
+
+/*Abilities start*/
+.abilities h1 {
+  font-size: 35px;
+  color: #e1a6a0;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 2px solid;
+  width: 200px;
+  margin: 2em auto;
+}
+/*Abilities slut*/
+
+/*Contact start*/
+.contact h1 {
+  font-size: 35px;
+  color: #e1a6a0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 2px solid;
+  width: 200px;
+  margin: 2em auto;
+}
+/*Contact slut*/
