@@ -53,20 +53,20 @@
                 <div class="first-row">
                     <div class="projectone">
                         <img src="#" alt="projectone">
-                        <p class="center-text">læs mere</p>
+                        <a href="#"><p class="center-text">Læs mere her</p></a>
                     </div>
 
                     <div class="project">
                         <div class="projecttwo">
                             <img src="#" alt="projecttwo">
-                            <p class="center-text">læs mere</p>
+                            <a href="#"><p class="center-text">Læs mere her</p></a>
                         </div>
                     </div>
 
                     <div class="project">
                         <div class="projectthree">
                             <img src="#" alt="projectthree">
-                            <p class="center-text">læs mere</p>
+                            <a href="#"><p class="center-text">Læs mere her</p></a>
                         </div>
                     </div>
                 </div>
@@ -75,21 +75,21 @@
                     <div class="project">
                         <div class="projectfour">
                             <img src="#" alt="projectfour">
-                            <p class="center-text">læs mere</p>
+                            <a href="#"><p class="center-text">Læs mere her</p></a>
                         </div>
                     </div>
 
                     <div class="project">
                         <div class="projectfive">
                             <img src="#" alt="projectfive">
-                            <p class="center-text">læs mere</p>
+                            <a href="#"><p class="center-text">Læs mere her</p></a>
                         </div>
                     </div>
 
                     <div class="project">
                         <div class="projectsix">
                             <img src="#" alt="projectsix">
-                            <p class="center-text">læs mere</p>
+                            <a href="#"><p class="center-text">Læs mere her</p></a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
             
             <h1>Abilities</h1>
 
-            <div>
+            <div class="progress-box">
                 
             </div>
 
@@ -112,8 +112,26 @@
             
             <h1>Contact</h1>
             
-            <div>
-               
+            <div class="contact-container">
+                <form action="action_page.php">
+                    <div>
+                        <label class="name-input" for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                    <div>
+                        <label class="name-input" for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                    <div>
+                        <label class="name-input" for="email">E-Mail</label>
+                        <input type="email" id="email" name="email" placeholder="Your email..">
+                    </div>
+                    <div>
+                        <label class="name-input" for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
 
         </section>
